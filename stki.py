@@ -1,3 +1,6 @@
+import subprocess
+subprocess.run(["pip", "install", "streamlit", "pandas", "scikit-learn", "numpy", "nltk"])
+
 import streamlit as st
 import nltk
 import pandas as pd
